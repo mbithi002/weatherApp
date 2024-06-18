@@ -1,15 +1,40 @@
 body {
-  animation: bgAnimate 10s infinite ease;
+  background-color: #0d1117;
 }
-
+.github {
+  animation: scaleup 700ms forwards ease-in-out;
+}
+.weather {
+  animation: scale 700ms forwards ease-in-out;
+}
 @keyframes bgAnimate {
   0% {
     background-color: #fff;
   }
   50% {
-      background-color: #0d1117;
+    background-color: #0d1117;
   }
   100% {
-      background-color: #dcdcdc;
+    background-color: #dcdcdc;
+  }
+}
+
+@keyframes scaleup {
+  from {
+    margin-bottom: -100px;
+    transform: scale(0);
+  }
+  to {
+    bottom: 4rem;
+    transform: scale(1);
+  }
+}
+
+@keyframes scale {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
   }
 }
