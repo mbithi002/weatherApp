@@ -8,7 +8,6 @@ const useWeatherInfo = (city) => {
     useEffect(() => {
         const fetchWeatherData = async () => {
             const apiKey = process.env.REACT_APP_OPENWEATHER_API_KEY;
-            console.log(apiKey);
             const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
             try {
