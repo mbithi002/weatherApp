@@ -15,7 +15,7 @@ const WeatherComponent = () => {
     return (
         <div className="container mx-auto mt-12">
             <div className="flex justify-center">
-                <div className="w-auto my-auto max-w-md bg-gradient-to-r from-blue-500 to-purple-600 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
+                <div className="w-auto my-auto max-w-md bg-gradient-to-r from-blue-500 to-purple-600 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 shadow-md">
                     <h3 className="text-3xl font-bold text-center text-white mb-6">Weather App</h3>
                     <form onSubmit={handleSearch} className="mb-6">
                         <div className="flex">

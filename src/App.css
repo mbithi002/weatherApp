@@ -1,0 +1,15 @@
+body {
+  animation: bgAnimate 10s infinite ease;
+}
+
+@keyframes bgAnimate {
+  0% {
+    background-color: #fff;
+  }
+  50% {
+      background-color: #0d1117;
+  }
+  100% {
+      background-color: #dcdcdc;
+  }
+}
